@@ -1,0 +1,17 @@
+.nav-link.active {
+  background-color: #f4edaf !important;
+}
+
+.imgSize {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.arrow {
+  width: 15px;
+  height: 15px;
+  right: 100px;
+  margin-left: auto;
+}

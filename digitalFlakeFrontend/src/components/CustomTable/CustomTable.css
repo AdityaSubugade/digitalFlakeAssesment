@@ -1,0 +1,164 @@
+.custom-table {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.custom-table thead th {
+  background-color: #fff8b7;
+  padding: 12px 8px;
+  vertical-align: middle;
+}
+
+.custom-table th.sortable {
+  cursor: pointer;
+}
+
+.custom-table tbody td {
+  background-color: #f2f2f2;
+  padding: 12px 8px;
+  vertical-align: middle;
+}
+
+.custom-table .action-column {
+  width: 120px;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  .custom-table thead th,
+  .custom-table tbody td {
+    padding: 8px 4px;
+  }
+  .custom-table .action-column {
+    width: 100px;
+  }
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 30px;
+}
+
+.btn-icon {
+  padding: 8px;
+  background: none;
+  border: none;
+}
+
+.btn-icon i {
+  font-size: 1.2rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 15px;
+}
+
+.search-container {
+  position: relative;
+  width: 700px;
+  margin-left: 0;
+}
+
+.search-input {
+  padding-left: 35px;
+  border-radius: 10px;
+  width: 85%;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+}
+
+.add-new-btn {
+  background-color: #c2bfc5;
+  border: none;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.icon-he {
+  width: 25px;
+}
+
+.add-new-btn:hover {
+  background-color: #7029d8;
+}
+
+@media (max-width: 768px) {
+  .table-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .header-right {
+    width: 100%;
+    flex-direction: column;
+  }
+  .search-container {
+    width: 100%;
+  }
+  .add-new-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+span {
+  text-align: center;
+}
+
+.table-header button {
+  background-color: #662671;
+  color: #ffffff;
+}
+
+.status-active {
+  color: #00a11a;
+}
+
+.status-inactive {
+  color: #f70505;
+}
+
+.table-img {
+  width: 40px;
+  height: 40px;
+}
+
+.border-row {
+  border-bottom: 15px solid #ffff;
+  border-top: 10px solid #ffff;
+}
+
+.back-arrow {
+  cursor: pointer;
+  margin-right: 12px;
+  font-size: 1.3rem;
+  color: #9d9d9d;
+}
+
+.custom-table-container {
+  height: 100%;
+}

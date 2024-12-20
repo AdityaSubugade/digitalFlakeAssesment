@@ -1,0 +1,22 @@
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-template-rows: auto;
+}
+
+.form-row {
+  display: contents;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-column-full {
+  grid-column: span 3;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}

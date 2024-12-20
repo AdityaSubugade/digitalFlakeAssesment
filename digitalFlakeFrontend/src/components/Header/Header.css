@@ -1,0 +1,10 @@
+nav.navbar {
+  background-color: #662671;
+  width: 100vw;
+  height: 55px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}

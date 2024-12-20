@@ -1,0 +1,67 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 10px;
+  width: 380px;
+  height: 200px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.confirm-button {
+  background-color: #662671;
+  color: #ffffff;
+  border-radius: 18px;
+  width: 120px;
+}
+
+.delete-button {
+  background-color: #ffffff;
+  color: #767676;
+  border: 1px solid #9f9f9f;
+  border-radius: 18px;
+  width: 120px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+.logOut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+
+.modal-content p {
+  margin-bottom: 28px;
+}
+.alert-icon-size {
+  width: 30px !important;
+}
+
+h3 {
+  margin-left: 10px;
+}
